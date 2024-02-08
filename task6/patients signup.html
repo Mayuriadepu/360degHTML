@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Pateint SignUp</title>
+</head>
+
+<body>
+    <header>
+        <center>
+            <h1>
+                <font color="orange">
+                    Apollo Hospitals
+                </font>
+            </h1>
+        </center>
+        <p align="center">
+            <a href="home.html" target="_blank">About Apollo</a>|
+            <a href="branches.html" target="_blank">Apollo Branches</a>|
+            <a href="services.html" target="_blank">Apollo Services</a>|
+            <a href="contact.html" target="_blank">Apollo Contact</a>|
+            <a href="doctors.html" target="_blank">Our Doctors</a>|
+            <a href="labs.html" target="_blank"> Our Labs</a>|
+            <a href="doctors signup.html" target="_blank">Doctor SignUp</a>|
+            <a href="doctors signin.html" target="_blank">Doctor SignIn</a>|
+            <a href="#">Patient SignUp</a>|
+            <a href="patients signin.html" target="_blank">Patient SignIn</a>
+        </p>
+    </header>
+    <hr>
+    <form>
+        <table align="center" bgcolor="EDEFF1">
+            <caption>
+                <h2><b>Patient Registration Form</b></h2>
+            </caption>
+            <tr>
+                <td><label>Patient's Name</label></td>
+                <td><input type="text" placeholder="First" id="fn" name="firstname" required></td>
+                <td><input type="text" placeholder="Last" id="ln" name="lastname" required></td>
+            </tr>
+            <tr>
+                <td><label>Gender</label></td>
+                <td><input type="radio" id="id1" name="gender" value="Male"><label>Male</label>
+                    <input type="radio" id="id2" name="gender" value="Female"><label>Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Phone</label></td>
+                <td><input type="number" id="num" name="number" required></td>
+            </tr>
+            <tr>
+                <td><label>Date of Birth</label></td>
+                <td><input type="date" id="d" name="BOD" required></td>
+            </tr>
+            <tr>
+                <td><label>Marital Status</label></td>
+                <td colspan="2"><input type="radio" id="id3" name="marital status" value="Single"><label>Single</label>
+                    <input type="radio" id="id4" name="marital status" value="married"><label>Married</label>
+                    <input type="radio" id="id5" name="marital status" value="divorced"><label>Divorced</label>
+                    <input type="radio" id="id6" name="marital status" value="widow"><label>Widow</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Patient's Address</label></td>
+                <td colspan="2"><input type="text" size="50px" placeholder="Address" id="add" name="address"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="text" placeholder="City" id="cit" name="city"></td>
+                <td><input type="text" placeholder="State" id="stat" name="state"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="text" placeholder="Postal/Zip Code" id="zip" name="zipcode"></td>
+                <td><select id="choose" name="country">
+                        <option value="Country">Country</option>
+                        <option value="India">India</option>
+                        <option value="USA">USA</option>
+                        <option value="UK">UK</option>
+                        <option value="Pakistan">Pakistan</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label>Insurance Name</label></td>
+                <td><input type="text" id="ins" name="insurancename" required></td>
+            </tr>
+            <tr>
+                <td><label>Past Medical History</label></td>
+                <td><input type="checkbox" name="dis" value="Anemia">Anemia<br>
+                    <input type="checkbox" name="dis"  value="Asthma">Asthma<br>
+                    <input type="checkbox" name="dis"  value="Bronchitis">Bronchitis<br>
+                    <input type="checkbox" name="dis"  value="Chickenpox">Chickenpox<br>
+                    <input type="checkbox" name="dis"  value="Diabetes">Diabetes<br>
+                    <input type="checkbox" name="dis"  value="Pneumonia">Pneumonia<br>
+                    <input type="checkbox" name="dis"  value="Thyroid Disease">Thyroid Disease<br>
+                    <input type="checkbox" name="dis"  value="Ulcer">Ulcer<br>
+                    <input type="checkbox" name="dis"  value="Others">Others
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="3" align="center"><input type="submit" value="Register" style="background-color: beige;">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+
+
+
+    <br><br>
+    <hr>
+    <footer>
+        <center>
+            <h4>
+                <font color="skyblue"> copyright@apollo hospitals</font>
+            </h4>
+        </center>
+
+    </footer>
+</body>
+
+</html>
