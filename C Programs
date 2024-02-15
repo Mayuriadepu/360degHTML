@@ -1,0 +1,19 @@
+//Non Function C Program
+// print (a+b)^2
+
+#include <stdio.h>
+
+int main()
+{
+    int a,b,result;
+    a=5;
+    b=10;
+    result=(a*a)+(b*b)+(2*(a+b)); //Logic
+    printf(" Result: %d \n",result);
+
+    a=7;
+    b=8;
+    result=(a*a)+(b*b)+(2*(a+b)); //Logic
+    printf(" Result: %d \n",result);
+    return 0;
+}
